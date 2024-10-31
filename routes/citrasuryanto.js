@@ -13,3 +13,5 @@ router.delete('/:id',citrasuryantoController.deletewisata);
 router.put('/:id',citrasuryantoController.updatewisata);
 
 module.exports = router;
+
+//https://github.com/CitraSuryanto/CitraSuryanto_UTS_PW2
