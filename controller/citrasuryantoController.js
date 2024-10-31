@@ -1,7 +1,7 @@
 const wisata = require("../model/wisata");
 
 const createwisata= (req, res) => {
-    const buku = new wisata({
+    const wisata = new wisata({
         nama_wisata : req.body.nama_wisata,
         lokasi : req.body.lokasi,
         keterangan : req.body.keterangan
@@ -35,7 +35,6 @@ const deletewisata= (req, res) => {
         });
     });
 };
-
 
 const updatewisata = (req, res) => {
    
