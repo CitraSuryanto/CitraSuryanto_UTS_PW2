@@ -6,9 +6,6 @@ const createwisata= (req, res) => {
         lokasi : req.body.lokasi,
         keterangan : req.body.keterangan
     });
-
-
-    //console.log(wisata);
     wisata.save().then((createdwisata)=>{
         res.status(201).json({
                 message : "Data berhasil disimpan",
